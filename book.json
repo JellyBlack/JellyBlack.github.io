@@ -1,0 +1,68 @@
+{
+    "title": "JellyBlack的个人主页",
+    "author":"Jelly Black",
+    "description":"还没想好写啥",
+    "language":"zh-hans",
+    "links":{
+        "sidebar":{
+            "去GitHub仓库":"https://github.com/JellyBlack/jellyblack.github.io"
+        }
+    },
+    "plugins" : [
+        "expandable-chapters",
+        "chapter-fold",
+        "github-buttons",
+        "editlink",
+        "copy-code-button",
+        "page-footer-ex",
+        "back-to-top-button",
+        "expandable-chapters-small",
+        "prism", 
+        "custom-fav",
+        "-highlight",
+        "-lunr", 
+        "-search", 
+		"-sharing",
+		"sharing-plus",
+        "search-pro",
+        "splitter",
+        "popup",
+		"hide-element"
+    ],
+    "pluginsConfig": {
+        "editlink": {
+            "base": "https://github.com/JellyBlack/jellyblack.github.io/edit/main",
+            "label": "编辑此页面"
+        },    
+        "github-buttons": {
+            "buttons": [{
+                "user": "JellyBlack",
+                "repo": "jellyblack.github.io",
+                "type": "star",
+                "size": "small"
+            }]
+        },    
+        "page-footer-ex": {
+            "copyright": "By JellyBlack，使用[CC BY-SA 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布",
+            "markdown": true,
+            "update_label": "<i>最后更新于  </i>",
+            "update_format": "YYYY-MM-DD"
+        },    
+        "prism": {
+            "css": ["prismjs/themes/prism-solarizedlight.css"],
+            "lang": {"flow": "typescript"}
+        },
+        "favicon": "assets/img/favicon.ico",
+		"hide-element":{
+			"elements": [".gitbook-link"]
+		},
+		"sharing": {
+             "qq": true,
+             "all": [
+               "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+               "messenger","qq", "qzone","viber","whatsapp"
+           ]
+        }
+    },
+    "ignores" : ["_book", "node_modules"]
+}
