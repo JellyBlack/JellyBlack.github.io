@@ -27,7 +27,8 @@
         "search-pro",
         "splitter",
         "popup",
-		"hide-element"
+		"hide-element",
+		"statistics"
     ],
     "pluginsConfig": {
         "editlink": {
@@ -62,6 +63,9 @@
                "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
                "messenger","qq", "qzone","viber","whatsapp"
            ]
+        },
+		"statistics": {
+            "cnzz_id": 1280180245
         }
     },
     "ignores" : ["_book", "node_modules"]
